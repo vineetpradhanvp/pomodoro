@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: #eff1fa;
+  padding: 0.45rem 0.6rem 0.45rem 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+}
+.wrapper > input {
+  width: min(100px, 20vw);
+  font-weight: 600;
+}
+.btnGroup {
+  display: flex;
+  flex-direction: column;
+}
+.btnGroup > button {
+  display: flex;
+}
+.svg {
+  opacity: 0.4;
+  padding: 0.4rem;
+}
+
+@media (hover: hover) {
+  .svg:hover {
+    opacity: 1;
+  }
+}

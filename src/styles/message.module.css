@@ -1,0 +1,10 @@
+.message {
+  background-color: white;
+  position: absolute;
+  bottom: 60px;
+  padding: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  max-width: 95vw;
+}

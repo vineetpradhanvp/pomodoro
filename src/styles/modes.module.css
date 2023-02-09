@@ -1,0 +1,42 @@
+.wrapper {
+  background-color: #161932;
+  border-radius: 2rem;
+  padding: 0.3rem;
+}
+.nav {
+  border-radius: 2rem;
+  position: relative;
+  display: flex;
+  width: min(380px, 95vw);
+}
+
+.btn {
+  color: #636984;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.9rem 0;
+  border-radius: 2rem;
+  position: inherit;
+  flex-grow: 1;
+}
+
+.activeBtn {
+  color: #161932;
+}
+
+.activeEle {
+  transition: 0.2s;
+  background-color: var(--selected-color);
+  position: absolute;
+  height: 100%;
+  width: calc(100% / 3);
+  border-radius: 2rem;
+  left: 0;
+  top: 0;
+}
+
+@media (hover: hover) {
+  .btn:hover:not(.activeBtn) {
+    color: #d7e0ff;
+  }
+}
